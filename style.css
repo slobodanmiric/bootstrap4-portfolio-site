@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,700|Open+Sans:300,400,600');
+
+:root {
+    --orange: darkorange;
+    --red: orangered;
+    --gray: #333;
+    --lightgray: lightgray;
+    --white: floralwhite;
+    --black: #000;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+}
+a {
+    font-family: 'Kalam', cursive;
+}
+
+/*********** 
+header
+***********/
+header {
+    height: 100vh;
+    background-image: url(img/header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+header .card {
+    border-radius: 0;
+    border: 2px solid var(--lightgray);
+    background: var(--white);
+    opacity: 0.7;
+}
+header .card-title {
+    color: var(--red);
+}
+header .card a {
+    background: var(--red);
+    color: var(--black);
+    width: 150px;
+    margin: auto;
+    border-radius: 0;
+    font-size: 1.3rem;
+}
+header .card a:hover {
+    background: var(--gray);
+    color: var(--red);
+}
+
+
+
+
+@media(max-width: 768px) {
+   
+}
